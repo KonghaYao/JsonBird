@@ -1,0 +1,8 @@
+version: "3"
+services:
+    server:
+        container_name: server-1
+        build: .
+
+        ports:
+            - "3010:3010"
